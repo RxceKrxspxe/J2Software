@@ -145,7 +145,7 @@ body {
     border-radius: 4px;
     text-align: center;
     margin: 10px;
-    min-width: 200px;
+    min-width: 150px;
 }
 
 .report-container {
@@ -273,8 +273,17 @@ th {
   border-radius: 4px;
   text-align: center;
   margin: 10px;
-  min-width: 200px;
+  min-width: 150px;
 }
 .dash-Table {
+  display: flex;
+}
+.filter-checkbox{
+  width: 100px;
+}
+.checkbox-label-text{
+  width: 90px;
+}
+.checkbox-label{
   display: flex;
 }
